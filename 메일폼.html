@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unity Beach Party</title>
+    <style>
+      /* Hover 효과 지원 메일 클라이언트(Gmail 웹, 네이버 메일 등)용 스타일 */
+      .btn-hover {
+        transition: 0.3s;
+      }
+      .btn-hover a {
+        transition: 0.3s;
+      }
+      .btn-hover:hover {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+      }
+      .btn-hover:hover a {
+        color: #fff !important;
+      }
+    </style>
+  </head>
+  <body style="margin: 0; padding: 0">
+    <!-- 메인 컨테이너 테이블 -->
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td align="center">
+          <!-- 이메일 본문 (1080px 고정) -->
+          <table border="0" cellpadding="0" cellspacing="0" width="1080" style="background-color: #ffffff; width: 1080px; max-width: 1080px; margin: 0 auto; border-collapse: collapse">
+            <!-- 1. 상단 메인 통이미지 (타임테이블 하단까지) -->
+            <tr>
+              <td colspan="3" align="center" style="padding: 0; margin: 0; line-height: 0; font-size: 0">
+                <img src="https://s3.ap-northeast-2.amazonaws.com/publ.univ.me/test_html/email/1.png" alt="Unity Beach Party 안내" width="1080" style="width: 100%; max-width: 1080px; height: auto; display: block; border: 0; margin: 0; padding: 0" />
+              </td>
+            </tr>
+
+            <!-- 2. 버튼 영역 (3분할 TD 구조) -->
+            <tr>
+              <!-- 2-1. 좌측 배경 이미지 -->
+              <td width="350" height="96" style="padding: 0; margin: 0; line-height: 0; font-size: 0; background-color: #f8f9fa">
+                <img src="https://s3.ap-northeast-2.amazonaws.com/publ.univ.me/test_html/email/2.png" alt="" width="350" height="96" style="width: 100%; display: block; border: 0; margin: 0; padding: 0" />
+              </td>
+
+              <!-- 2-2. 가운데 [지금 등록하세요] 일반 HTML 버튼 -->
+              <td width="380" height="96" align="center" valign="middle" style="width: 380px; height: 96px; padding: 0; background-color: #f8f9fa">
+                <!-- 실제 버튼 크기 -->
+                <table width="368" height="96" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 368px; height: 96px; border-collapse: separate">
+                  <tr>
+                    <td width="368" height="96" align="center" valign="middle" class="btn-hover" style="width: 368px; height: 96px; padding: 0; background-color: #ffffff; border: 3px solid #000000; border-radius: 50px; box-sizing: border-box">
+                      <a href="https://unitybeachparty.splashthat.com/" target="_blank" style="display: block; color: #000000; font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif; font-size: 36px; font-weight: bold; line-height: 90px; text-align: center; text-decoration: none; letter-spacing: -0.02em">지금 등록하세요</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+
+              <!-- 2-3. 우측 배경 이미지 -->
+              <td width="350" height="96" style="padding: 0; margin: 0; line-height: 0; font-size: 0; background-color: #f8f9fa">
+                <img src="https://s3.ap-northeast-2.amazonaws.com/publ.univ.me/test_html/email/4.png" alt="" width="350" height="96" style="width: 100%; display: block; border: 0; margin: 0; padding: 0" />
+              </td>
+            </tr>
+
+            <!-- 3. 하단 푸터 이미지 (안내문구 영역) -->
+            <tr>
+              <td colspan="3" align="center" style="padding: 0; margin: 0; line-height: 0; font-size: 0">
+                <img src="https://s3.ap-northeast-2.amazonaws.com/publ.univ.me/test_html/email/5.png" alt="행사 참가 신청은 조기 마감될 수 있습니다." width="1080" style="width: 100%; max-width: 1080px; height: auto; display: block; border: 0; margin: 0; padding: 0" />
+              </td>
+            </tr>
+          </table>
+          <!-- // 이메일 본문 -->
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
